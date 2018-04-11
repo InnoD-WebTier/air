@@ -1,0 +1,16 @@
+.overlay-nav {
+  background: #333333;
+  color: #fff;
+  display: fixed;
+  width: 300px;
+  height: 300px;
+}
+
+.overlay-nav-list {
+  list-style-type: none;
+}
+
+.youtube {
+  width: 100%;
+  height: 420px;
+}
