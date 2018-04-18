@@ -1,5 +1,13 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  background: #212121;
+  color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FCE11D;
 }
 
 .overlay-nav-container {
@@ -24,6 +32,10 @@ body {
 .overlay-nav-list {
   padding: 0;
   list-style-type: none;
+}
+
+.header-row h2 {
+  display: inline-block;
 }
 
 .youtube {
