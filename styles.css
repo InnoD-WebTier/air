@@ -42,3 +42,38 @@ h1,h2,h3,h4,h5,h6 {
   width: 100%;
   height: 420px;
 }
+
+
+/* NEWS */
+
+.news {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.news-title {
+    color: white; 
+    font-size: 25px; 
+}
+
+.news-date {
+    font-weight: bold;  
+    font-size: 20px; 
+    color: #56CCF2; 
+}
+
+
+/* FOOTER */ 
+
+.footer {
+    width: 100%; 
+    background-color: #424242; 
+}
+
+
+
+
+
+
+
+
