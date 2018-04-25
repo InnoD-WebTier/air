@@ -4,6 +4,11 @@ body {
   color: white;
 }
 
+h1 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
 h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   font-weight: bold;
@@ -28,6 +33,16 @@ header {
   z-index: 10;
 }
 
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.nav-list-inline * {
+  display: inline-block;
+}
+
 .overlay-nav-container {
   position: fixed;
   bottom: 32px;
@@ -44,12 +59,6 @@ header {
   width: 144px;
   height: 144px;
   text-align: center;
-  text-transform: uppercase;
-}
-
-.overlay-nav-list {
-  padding: 0;
-  list-style-type: none;
 }
 
 .header-row h2 {
@@ -61,3 +70,48 @@ header {
   height: 420px;
 }
 
+<<<<<<< HEAD
+=======
+
+/* NEWS */
+
+.news-container {
+    padding-bottom: 30px; 
+}
+
+.news {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+
+.news-title {
+    color: white; 
+    font-size: 25px; 
+}
+
+.news-date {
+    font-weight: bold;  
+    font-size: 20px; 
+    color: #56CCF2; 
+}
+
+
+/* FOOTER */ 
+
+.footer-container {
+    padding-top: 30px; 
+    padding-bottom: 30px;  
+    width: 100%;  
+}
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> b3c0f6a800660fd0c053d6cea20189dea83effb9
