@@ -4,10 +4,25 @@ body {
   color: white;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   font-weight: bold;
   color: #FCE11D;
+}
+
+.nav-list {
+  padding: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.nav-list-inline * {
+  display: inline-block;
 }
 
 .overlay-nav-container {
@@ -26,12 +41,6 @@ h1,h2,h3,h4,h5,h6 {
   width: 144px;
   height: 144px;
   text-align: center;
-  text-transform: uppercase;
-}
-
-.overlay-nav-list {
-  padding: 0;
-  list-style-type: none;
 }
 
 .header-row h2 {
