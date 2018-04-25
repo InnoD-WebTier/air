@@ -105,7 +105,7 @@ table {
   background-color: #363434;
   overflow: scroll;
   width: 0;
-  height: 50%;
+  height: 100%;
   transition: .5s ease;
 }
 
@@ -168,13 +168,14 @@ table {
 
 .news-title {
     color: white; 
-    font-size: 25px;
+    font-size: 18px;
     margin: 0px; 
+    padding-bottom: 5px; 
 }
 
 .news-date {
     font-weight: bold;  
-    font-size: 20px; 
+    font-size: 15px; 
     color: #56CCF2;
     margin: 0px; 
 }
@@ -182,9 +183,18 @@ table {
 
 /* FOOTER */
 
-.footer-container {
+.footer {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
 }
 
+.footer h4 {
+    font-size: 15px; 
+    font-weight: 300; 
+}
+
+.footer ul {
+    list-style-type: none; 
+    padding: 0px; 
+}
