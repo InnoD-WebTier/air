@@ -1,17 +1,16 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
   background: #212121;
   color: white;
 }
 
-h1 {
-  font-size: 1em;
-  text-transform: uppercase;
-}
-
 h2,h3,h4,h5,h6 {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 2.5em;
+  letter-spacing: 0.05em;
   color: #FCE11D;
 }
 
@@ -21,13 +20,40 @@ h1 {
   padding: 0;
 }
 
-header {
+h2 {
+  margin: 50px 0px 30px;
+}
+
+h4 {
+  text-transform: capitalize;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.8;
+  margin-bottom: 1.5em;
+}
+
+a {
+  font-weight: 400;
+  color: #56CCF2;
+}
+
+a:hover, a:active {
+  color: #99e0f7;
+  text-decoration: none;
+}
+
+.header {
   height: 100vh;
+  width: 100vw;
 }
 
 #home-logo {
+  display: block;
   width: 55vw;
-  margin: 0px auto;
+  margin: 15vh auto;
   z-index: 10;
 }
 
@@ -63,7 +89,6 @@ header {
   width: 100%;
   height: 420px;
 }
-
 
 /* MEMBERS AND OLD MEMBERS */
 table {
@@ -151,7 +176,6 @@ table {
   color: #56CCF2;
 }
 
-
 /* NEWS */
 
 .news-container {
@@ -168,13 +192,14 @@ table {
 
 .news-title {
     color: white; 
-    font-size: 25px;
+    font-size: 18px;
     margin: 0px; 
+    padding-bottom: 5px; 
 }
 
 .news-date {
     font-weight: bold;  
-    font-size: 20px; 
+    font-size: 15px; 
     color: #56CCF2;
     margin: 0px; 
 }
@@ -182,9 +207,18 @@ table {
 
 /* FOOTER */
 
-.footer-container {
+.footer {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
 }
 
+.footer h4 {
+    font-size: 15px; 
+    font-weight: 300; 
+}
+
+.footer ul {
+    list-style-type: none; 
+    padding: 0px; 
+}
