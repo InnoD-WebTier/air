@@ -10,7 +10,7 @@ h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 2.5em;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.05em;
   color: #FCE11D;
   margin-top: 50px;
   padding: 20px 0px;
@@ -23,14 +23,19 @@ h1 {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.8;
+  margin-bottom: 1.5em;
 }
 
-br {
-  line-height: 200%;
+a {
+  font-weight: 400;
+  color: #56CCF2;
 }
 
-
+a:hover, a:active {
+  color: #99e0f7;
+  text-decoration: none;
+}
 
 header {
   height: 100vh;  
@@ -38,7 +43,6 @@ header {
 
 #home-logo {
   width: 55vw;
-  margin: 0px auto;  
   z-index: 10;
 }
 
