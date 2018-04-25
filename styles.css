@@ -70,8 +70,6 @@ header {
   height: 420px;
 }
 
-<<<<<<< HEAD
-=======
 
 /* NEWS */
 
@@ -80,19 +78,24 @@ header {
 }
 
 .news {
+/*
     padding-top: 10px; 
     padding-bottom: 10px; 
+*/
 }
 
 .news-title {
     color: white; 
-    font-size: 25px; 
+    font-size: 25px;
+    margin: 0px; 
 }
 
 .news-date {
     font-weight: bold;  
     font-size: 20px; 
-    color: #56CCF2; 
+    color: #56CCF2;
+    margin: 0px; 
+    
 }
 
 
@@ -108,10 +111,3 @@ header {
 
 
 
-
-
-
-
-
-
->>>>>>> b3c0f6a800660fd0c053d6cea20189dea83effb9
