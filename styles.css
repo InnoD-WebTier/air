@@ -105,7 +105,7 @@ table {
   background-color: #363434;
   overflow: scroll;
   width: 0;
-  height: 50%;
+  height: 100%;
   transition: .5s ease;
 }
 
