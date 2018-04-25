@@ -46,6 +46,10 @@ h1,h2,h3,h4,h5,h6 {
 
 /* NEWS */
 
+.news-container {
+    padding-bottom: 30px; 
+}
+
 .news {
     padding-top: 10px; 
     padding-bottom: 10px; 
@@ -65,10 +69,14 @@ h1,h2,h3,h4,h5,h6 {
 
 /* FOOTER */ 
 
-.footer {
-    width: 100%; 
-    background-color: #424242; 
+.footer-container {
+    padding-top: 30px; 
+    padding-bottom: 30px;  
+    width: 100%;  
 }
+
+
+
 
 
 
