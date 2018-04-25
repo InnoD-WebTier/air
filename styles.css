@@ -1,17 +1,16 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
   background: #212121;
   color: white;
 }
 
-h1 {
-  font-size: 1em;
-  text-transform: uppercase;
-}
-
 h2,h3,h4,h5,h6 {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
+  font-size: 2.5em;
+  letter-spacing: 0.1em;
   color: #FCE11D;
   margin-top: 50px;
   padding: 20px 0px;
@@ -22,6 +21,16 @@ h1 {
   margin: 0;
   padding: 0;
 }
+
+p {
+  line-height: 1.6;
+}
+
+br {
+  line-height: 200%;
+}
+
+
 
 header {
   height: 100vh;  
@@ -70,9 +79,6 @@ header {
   height: 420px;
 }
 
-<<<<<<< HEAD
-=======
-
 /* NEWS */
 
 .news-container {
@@ -103,7 +109,6 @@ header {
     padding-bottom: 30px;  
     width: 100%;  
 }
-
 
 
 
