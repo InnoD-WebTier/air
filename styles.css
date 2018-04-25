@@ -13,8 +13,6 @@ h2,h3,h4,h5,h6 {
   text-transform: uppercase;
   font-weight: bold;
   color: #FCE11D;
-  margin-top: 50px;
-  padding: 20px 0px;
 }
 
 h1 {
@@ -24,12 +22,12 @@ h1 {
 }
 
 header {
-  height: 100vh;  
+  height: 100vh;
 }
 
 #home-logo {
   width: 55vw;
-  margin: 0px auto;  
+  margin: 0px auto;
   z-index: 10;
 }
 
@@ -61,10 +59,6 @@ header {
   text-align: center;
 }
 
-.header-row h2 {
-  display: inline-block;
-}
-
 .youtube {
   width: 100%;
   height: 420px;
@@ -72,14 +66,14 @@ header {
 
 /* MEMBERS AND OLD MEMBERS */
 table {
-    margin-left:10%; 
+    margin-left:10%;
     margin-right:10%;
     table-layout: auto;
     width: 100%;
   }
 
 .t1 {
-    margin-left:25%; 
+    margin-left:25%;
     margin-right:25%;
     table-layout: auto;
     width: 100%;
@@ -92,7 +86,7 @@ table {
   display: block;
   padding-top: 20px;
   padding-bottom: 20px;
-  
+
 }
 
 .member {
@@ -161,32 +155,32 @@ table {
 /* NEWS */
 
 .news-container {
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
 }
 
 .news {
-    padding-top: 10px; 
-    padding-bottom: 10px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .news-title {
-    color: white; 
-    font-size: 25px; 
+    color: white;
+    font-size: 25px;
 }
 
 .news-date {
-    font-weight: bold;  
-    font-size: 20px; 
-    color: #56CCF2; 
+    font-weight: bold;
+    font-size: 20px;
+    color: #56CCF2;
 }
 
 
-/* FOOTER */ 
+/* FOOTER */
 
 .footer-container {
-    padding-top: 30px; 
-    padding-bottom: 30px;  
-    width: 100%;  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
 }
 
 
