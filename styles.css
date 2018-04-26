@@ -74,6 +74,10 @@ a:hover, a:active {
   margin-bottom: 30px;
 }
 
+.clearfix {
+    margin: -15px;   
+}
+
 .youtube {
   width: 100%;
   height: 520px;
