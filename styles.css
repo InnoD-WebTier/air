@@ -342,7 +342,7 @@ tbody {
 
 @media only screen and (max-width: 768px) {
   #header {
-    height: 60vh;
+    height: 400px;
     width: 100%;
   }
 
