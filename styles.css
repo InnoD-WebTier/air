@@ -36,13 +36,16 @@ p {
 }
 
 a {
-  font-weight: 400;
   color: #56CCF2;
 }
 
 a:hover, a:active {
   color: #99e0f7;
   text-decoration: none;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
 }
 
 #header {
@@ -73,15 +76,19 @@ a:hover, a:active {
 
 .nav-list {
   padding: 0;
+  margin: 0;
   list-style-type: none;
   text-transform: uppercase;
 }
 
-.nav-list-inline * {
-  display: inline-block;
+.nav-list a {
+  color: inherit;
 }
 
 .overlay-nav-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
   position: fixed;
   bottom: 32px;
   right: 32px ;
@@ -94,8 +101,8 @@ a:hover, a:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 144px;
-  height: 144px;
+  width: 192px;
+  height: 192px;
   text-align: center;
 }
 
@@ -204,18 +211,27 @@ table {
 }
 
 
+.news {
+
+/*
+    padding-top: 10px;
+    padding-bottom: 10px;
+*/
+}
+
+
 .news-title {
-    color: white; 
+    color: white;
     font-size: 18px;
-    margin: 0px; 
-    padding-bottom: 5px; 
+    margin: 0px;
+    padding-bottom: 5px;
 }
 
 .news-date {
-    font-weight: bold;  
-    font-size: 15px; 
+    font-weight: bold;
+    font-size: 15px;
     color: #56CCF2;
-    margin: 0px; 
+    margin: 0px;
 }
 
 .news {
@@ -243,11 +259,12 @@ table {
 .footer h4 {
     font-size: 20px; 
     font-weight: 300; 
+
 }
 
 .footer ul {
-    list-style-type: none; 
-    padding: 0px; 
+    list-style-type: none;
+    padding: 0px;
 }
 
 .footer img {
