@@ -149,12 +149,14 @@ table {
   height: 250px;
   object-fit: cover;
   display: block;
+  padding: 10px;
+
+
 }
 
 .member {
   position: relative;
   width: 250px;
-  margin: 5px 10px 5px 0;
 }
 
 .member span {
@@ -362,5 +364,5 @@ tbody {
   .about {
     height: 900px;
   }
-  
+
 }
