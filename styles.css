@@ -76,7 +76,8 @@ a:hover, a:active {
 }
 
 .clearfix {
-    margin: -15px;   
+    margin-left: -15px; 
+    padding-bottom: 10px; 
 }
 
 .youtube {
