@@ -163,9 +163,9 @@ table {
   background-color: #363434;
   opacity: 0;
   overflow: scroll;
-  width: 100%;
-  height: 100%;
   transition: .5s ease;
+  margin: 20px 0;
+  width: 252px;
 }
 
 .member:hover .overlay {
@@ -174,10 +174,9 @@ table {
 
 .text {
   color: white;
-  font-size: 15px;
-  line-height: 1;
+  font-size: .8em;
   position: absolute;
-  top: 30%;
+  top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -185,7 +184,6 @@ table {
   margin-bottom: 5px;
   width: 200px;
   height: 0;
-
 }
 
 .box {
@@ -246,7 +244,7 @@ table {
 }
 
 .news {
-    padding: 15px; 
+    padding: 15px;
 }
 
 
@@ -262,14 +260,14 @@ table {
 }
 
 .footer-col {
-    padding-left: 15px; 
-    padding-right: 15px; 
-    
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 
 .footer h4 {
-    font-size: 20px; 
-    font-weight: 300; 
+    font-size: 20px;
+    font-weight: 300;
 
 }
 
@@ -279,6 +277,6 @@ table {
 }
 
 .footer img {
-    padding-top: 10px; 
-    
+    padding-top: 10px;
+
 }
