@@ -174,7 +174,8 @@ table {
   overflow-x: hidden;
   transition: .5s ease;
   margin: 0;
-  width: 252px;
+  width: 250px;
+  padding: 10px;
 }
 
 .member:hover .overlay {
