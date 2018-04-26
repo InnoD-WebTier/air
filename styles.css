@@ -157,7 +157,7 @@ table {
 .text {
   color: white;
   font-size: 15px;
-  line-height: 1;
+  line-height: 1.6;
   position: absolute;
   top: 30%;
   left: 50%;
@@ -242,4 +242,42 @@ table {
 .footer ul {
     list-style-type: none; 
     padding: 0px; 
+}
+
+.repbox {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+
+}
+
+#currrepr {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#currrepr td, #currrepr th {
+    padding: 8px;
+    width: 140px;
+}
+
+#currrepr tr:hover {background-color: #363434;}
+
+#currrepr th {
+    text-align: left;
+    color: #56CCF2;
+    width: 140px;
+
+}
+thead, tbody {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+tbody {
+  margin: auto;
+  height: 500px;
+  overflow-y:  auto;
+  overflow-x: hidden
 }
