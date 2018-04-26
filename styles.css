@@ -27,7 +27,7 @@ h2 {
 }
 
 .extraheaders {
-  margin: 60px auto 25px;
+  margin: 60px auto 30px;
 }
 
 h4 {
@@ -145,8 +145,6 @@ a:hover, a:active {
   object-fit: cover;
   display: block;
   padding: 10px;
-
-
 }
 
 .member {
@@ -234,6 +232,11 @@ a:hover, a:active {
   color: #56CCF2;
 }
 
+.allmems {
+  margin: 0px auto 30px;
+  width: 880px;
+}
+
 /* NEWS */
 
 .news-container {
@@ -284,7 +287,7 @@ a:hover, a:active {
 }
 
 .footer h4 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
 
 }
@@ -347,6 +350,13 @@ tbody {
 
 }
 
+@media only screen and (max-width: 1000px) {
+  .allmems {
+    width: 590px;
+  }
+}
+
+
 @media only screen and (max-width: 768px) {
   #header {
     height: 414px;
@@ -380,6 +390,10 @@ tbody {
 
   .members-container {
     text-align: center;
+  }
+
+  .allmems {
+    width: 290px;
   }
 }
 
