@@ -39,6 +39,7 @@ p {
 
 a {
   color: #56CCF2;
+  font-weight: 500;
 }
 
 a:hover, a:active {
@@ -69,13 +70,22 @@ a:hover, a:active {
 }
 
 /* ABOUT */
+.video {
+  margin-bottom: 30px;
+}
+
+.clearfix {
+    margin: -15px;   
+}
 
 .youtube {
   width: 100%;
-  height: 420px;
+  height: 520px;
 }
 
-#about {
+
+.about {
+
   height: 100vh;
   background: url("images/cover2-dark-circle.jpg");
   -webkit-background-size: cover;
@@ -230,9 +240,10 @@ table {
 
 .news-title {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     margin: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 12px;
+    line-height: 1.3em;
 }
 
 .news-date {
@@ -240,6 +251,7 @@ table {
     font-size: 15px;
     color: #56CCF2;
     margin: 0px;
+    padding-bottom: 12px;
 }
 
 .news {
@@ -261,12 +273,13 @@ table {
 .footer-col {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 25px; 
 
 }
 
 .footer h4 {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
 
 }
 
@@ -279,6 +292,14 @@ table {
     padding-top: 10px;
 
 }
+
+
+.footer .fab {
+    font-size: 25px;
+    padding-right: 10px; 
+    color: white; 
+}
+
 
 .repbox {
   margin: auto;
@@ -316,4 +337,5 @@ tbody {
   height: 500px;
   overflow-y:  auto;
   overflow-x: hidden
+
 }
