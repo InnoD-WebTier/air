@@ -65,6 +65,7 @@ a:hover, a:active {
 #home-logo {
   display: block;
   width: 55vw;
+  min-width: 600px;
   margin: 20vh auto 0vh;
   z-index: 10;
 }
@@ -81,7 +82,6 @@ a:hover, a:active {
 
 
 .about {
-
   height: 100vh;
   background: url("images/cover2-dark-circle.jpg");
   -webkit-background-size: cover;
@@ -333,4 +333,34 @@ tbody {
   overflow-y:  auto;
   overflow-x: hidden
 
+}
+
+@media only screen and (max-width: 768px) {
+  #header {
+    height: 60vh;
+    width: 100%;
+  }
+
+  #home-logo {
+    width: 80vw;
+    min-width: 80vw;
+    margin: 18px auto 0;
+  }
+
+  h2 {
+    margin: 0px auto;
+  }
+
+  .youtube {
+    height: 360px;
+  }
+
+  .about {
+    height: 900px;
+  }
+
+  .footer {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
