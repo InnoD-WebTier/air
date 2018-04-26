@@ -71,13 +71,9 @@ a:hover, a:active {
 /* ABOUT */
 
 #about {
-<<<<<<< HEAD
-/*  height: 100vh;*/
-  background: url("images/cover.jpg") no-repeat center center;
-=======
+
   height: 100vh;
   background: url("images/cover2-dark-circle.jpg") no-repeat center center;
->>>>>>> 2880cae53d475301de2d2038490b906a6a368270
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
