@@ -133,19 +133,6 @@ a:hover, a:active {
 }
 
 /* MEMBERS AND OLD MEMBERS */
-table {
-    margin-left:10%;
-    margin-right:10%;
-    table-layout: auto;
-    width: 100%;
-  }
-
-.t1 {
-    margin-left:25%;
-    margin-right:25%;
-    table-layout: auto;
-    width: 100%;
-  }
 
 .member img {
   width: 250px;
@@ -168,6 +155,7 @@ table {
 }
 
 .overlay {
+  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -179,7 +167,9 @@ table {
   overflow-x: hidden;
   transition: .5s ease;
   margin: 0;
-  width: 252px;
+  width: 250px;
+  height: 250px;
+  
 }
 
 .member:hover .overlay {
@@ -195,7 +185,6 @@ table {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   white-space: pre-line;
-  margin-bottom: 5px;
   width: 200px;
   height: 0;
 }
@@ -210,19 +199,30 @@ table {
   width: 250px;
   height: 10%;
   font-size: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin: 20px;
+  padding: 50px;
   position: relative;
 }
 
+.overlays {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #363434;
+  opacity: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+  transition: .5s ease;
+  margin: 0;
+  width: 250px;
+  height: 100%;
+  
+}
 
-.box:hover .overlay {
+.box:hover .overlays {
   opacity: 1;
   color: #56CCF2;
 }
