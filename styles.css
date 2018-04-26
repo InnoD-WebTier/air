@@ -26,6 +26,10 @@ h2 {
   margin: 60px 0px 25px;
 }
 
+.extraheaders {
+  margin: 60px auto 25px;
+}
+
 h4 {
   text-transform: capitalize;
   font-size: 1.8em;
@@ -119,10 +123,11 @@ a:hover, a:active {
   bottom: 32px;
   right: 32px ;
   z-index: 10;
+  background: #343434;
+  background: rgba(51, 51, 51, 90%);
 }
 
 .overlay-nav {
-  background: rgba(51, 51, 51, 90%);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -145,6 +150,7 @@ a:hover, a:active {
 }
 
 .member {
+  display: inline-block;
   position: relative;
   width: 250px;
 }
@@ -169,7 +175,7 @@ a:hover, a:active {
   margin: 0;
   width: 250px;
   height: 250px;
-  
+
 }
 
 .member:hover .overlay {
@@ -202,6 +208,7 @@ a:hover, a:active {
   margin: 20px;
   padding: 50px;
   position: relative;
+  
 }
 
 .overlays {
@@ -219,7 +226,7 @@ a:hover, a:active {
   margin: 0;
   width: 250px;
   height: 100%;
-  
+
 }
 
 .box:hover .overlays {
@@ -304,6 +311,7 @@ a:hover, a:active {
   margin: auto;
   width: 600px;
   height: 600px;
+  overflow-x: auto;
 
 }
 
@@ -368,6 +376,10 @@ tbody {
 
   .overlay-nav-container {
     display: none;
+  }
+
+  .members-container {
+    text-align: center;
   }
 }
 
