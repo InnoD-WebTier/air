@@ -227,11 +227,12 @@ table {
 
 .news-container {
     padding-bottom: 30px;
+    padding: 0px; 
 }
 
 
 .news {
-
+/*    width: inherit; */
 /*
     padding-top: 10px;
     padding-bottom: 10px;
@@ -255,9 +256,6 @@ table {
     padding-bottom: 12px;
 }
 
-.news {
-    padding: 15px;
-}
 
 
 
