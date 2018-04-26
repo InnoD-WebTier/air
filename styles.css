@@ -81,7 +81,7 @@ a:hover, a:active {
 
 .clearfix {
     padding-bottom: 10px;
-    
+
 }
 
 .youtube {
@@ -235,7 +235,7 @@ table {
 
 
 .news {
-    padding-left: 15px; 
+    padding-left: 15px;
 
 }
 
@@ -272,7 +272,7 @@ table {
 .footer-col {
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 25px; 
+    padding-bottom: 25px;
 
 }
 
@@ -295,8 +295,8 @@ table {
 
 .footer .fab {
     font-size: 25px;
-    padding-right: 10px; 
-    color: white; 
+    padding-right: 10px;
+    color: white;
 }
 
 
@@ -366,4 +366,36 @@ tbody {
     margin: 0px auto 0px;
   }
 
+  .overlay-nav-container {
+    display: none;
+  }
+}
+
+/* MENU */
+@media only screen and (min-width: 768px) {
+  .overlay-menu-icon {
+    display: none;
+  }
+}
+
+.overlay-menu-icon {
+  font-size: 2em;
+  background: none;
+  position: fixed;
+  margin: 10px 0 0 13px;
+  z-index: 100;
+}
+
+.overlay-menu {
+  z-index: 99;
+  display: none;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: fixed;
+  background: #212121;
+}
+
+.overlay-menu-visible {
+  display: block;
 }
