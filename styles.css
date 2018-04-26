@@ -150,7 +150,10 @@ table {
   width: 250px;
 }
 
-
+.member span {
+  color: #56CCF2;
+  font-size: 1.5em;
+}
 
 .overlay {
   position: absolute;
@@ -277,4 +280,42 @@ table {
 .footer img {
     padding-top: 10px;
 
+}
+
+.repbox {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+
+}
+
+#currrepr {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#currrepr td, #currrepr th {
+    padding: 8px;
+    width: 140px;
+}
+
+#currrepr tr:hover {background-color: #363434;}
+
+#currrepr th {
+    text-align: left;
+    color: #56CCF2;
+    width: 140px;
+
+}
+thead, tbody {
+  display: block;
+  margin: auto;
+  width: 600px;
+}
+
+tbody {
+  margin: auto;
+  height: 500px;
+  overflow-y:  auto;
+  overflow-x: hidden
 }
