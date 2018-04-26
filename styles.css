@@ -129,19 +129,6 @@ a:hover, a:active {
 }
 
 /* MEMBERS AND OLD MEMBERS */
-table {
-    margin-left:10%;
-    margin-right:10%;
-    table-layout: auto;
-    width: 100%;
-  }
-
-.t1 {
-    margin-left:25%;
-    margin-right:25%;
-    table-layout: auto;
-    width: 100%;
-  }
 
 .member img {
   width: 250px;
@@ -164,6 +151,7 @@ table {
 }
 
 .overlay {
+  display: block;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -176,11 +164,13 @@ table {
   transition: .5s ease;
   margin: 0;
   width: 250px;
-  padding: 10px;
+  height: 250px;
+  
 }
 
 .member:hover .overlay {
   opacity: 1;
+  padding: 50px;
 }
 
 .text {
@@ -192,7 +182,6 @@ table {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   white-space: pre-line;
-  margin-bottom: 5px;
   width: 200px;
   height: 0;
 }
