@@ -137,8 +137,8 @@ table {
   height: 250px;
   object-fit: cover;
   display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 10px;
+
 
 }
 
@@ -161,8 +161,9 @@ table {
   background-color: #363434;
   opacity: 0;
   overflow: scroll;
+  overflow-x: hidden;
   transition: .5s ease;
-  margin: 20px 0;
+  margin: 0;
   width: 252px;
 }
 
