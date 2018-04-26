@@ -147,7 +147,10 @@ table {
   width: 250px;
 }
 
-
+.member span {
+  color: #56CCF2;
+  font-size: 1.5em;
+}
 
 .overlay {
   position: absolute;
