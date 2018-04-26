@@ -258,6 +258,7 @@ table {
 .footer-col {
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 25px; 
 
 }
 
@@ -275,4 +276,13 @@ table {
 .footer img {
     padding-top: 10px;
 
+}
+
+.footer .fab {
+    font-size: 25px;
+    padding-right: 10px; 
+}
+
+#follow {
+/*    text-align: center;  */
 }
