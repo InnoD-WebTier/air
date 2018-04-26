@@ -1,4 +1,5 @@
 window.onload = function() {
+  // HELPER FUNCTIONS
   function convertRemToPixels(rem) {
     return rem * parseFloat(getComputedStyle(document.documentElement).fontSize);
   }
@@ -16,6 +17,8 @@ window.onload = function() {
   function bold(node) {
     node.style.fontWeight = 'bold';
   }
+
+  // NAVIGATION SQUARE
 
   let navNodeMap = {
     'home': document.querySelector('.nav-list #nav-home'),
@@ -53,6 +56,26 @@ window.onload = function() {
     }
   });
 
-  document.querySelector('.overlay-nav-container').style.visibility = 'visible';
-  document.querySelector('.overlay-nav-container').style.opacity = '1';
+  let overlayNavContainer = document.querySelector('.overlay-nav-container');
+  overlayNavContainer.style.visibility = 'visible';
+  overlayNavContainer.style.opacity = '1';
+
+  // HAMBURGER MENU (FOR MOBILE)
+  let overlayMenu = document.querySelector('.overlay-menu');
+  let overlayMenuIcon = document.querySelector('.overlay-menu-icon');
+  overlayMenuIcon.addEventListener('click', function() {
+    overlayMenuIcon.classList.toggle('fa-bars');
+    overlayMenuIcon.classList.toggle('fa-times');
+
+    overlayMenu.classList.toggle('overlay-menu-visible');
+  });
+
+  for (let menuLink of document.querySelectorAll('.overlay-menu-item a')) {
+    menuLink.addEventListener('click', function() {
+      overlayMenuIcon.classList.toggle('fa-bars');
+      overlayMenuIcon.classList.toggle('fa-times');
+
+      overlayMenu.classList.toggle('overlay-menu-visible');
+    });
+  }
 };
