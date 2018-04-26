@@ -77,8 +77,8 @@ a:hover, a:active {
 }
 
 .clearfix {
-    margin-left: -15px; 
-    padding-bottom: 10px; 
+    padding-bottom: 10px;
+    
 }
 
 .youtube {
@@ -228,16 +228,12 @@ table {
 
 .news-container {
     padding-bottom: 30px;
-    padding: 0px; 
 }
 
 
 .news {
-/*    width: inherit; */
-/*
-    padding-top: 10px;
-    padding-bottom: 10px;
-*/
+    padding-left: 15px; 
+
 }
 
 
