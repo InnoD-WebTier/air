@@ -119,10 +119,11 @@ a:hover, a:active {
   bottom: 32px;
   right: 32px ;
   z-index: 10;
+  background: #343434;
+  background: rgba(51, 51, 51, 90%);
 }
 
 .overlay-nav {
-  background: rgba(51, 51, 51, 90%);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -170,7 +171,7 @@ a:hover, a:active {
   margin: 0;
   width: 250px;
   height: 250px;
-  
+
 }
 
 .member:hover .overlay {
@@ -220,7 +221,7 @@ a:hover, a:active {
   margin: 0;
   width: 250px;
   height: 100%;
-  
+
 }
 
 .box:hover .overlays {
