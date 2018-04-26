@@ -145,6 +145,7 @@ a:hover, a:active {
 }
 
 .member {
+  display: inline-block;
   position: relative;
   width: 250px;
 }
@@ -368,6 +369,10 @@ tbody {
 
   .overlay-nav-container {
     display: none;
+  }
+
+  .members-container {
+    text-align: center;
   }
 }
 
