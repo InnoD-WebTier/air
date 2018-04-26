@@ -203,13 +203,6 @@ table {
     padding-bottom: 30px;
 }
 
-.news {
-
-/*
-    padding-top: 10px; 
-    padding-bottom: 10px; 
-*/
-}
 
 .news-title {
     color: white; 
@@ -225,21 +218,39 @@ table {
     margin: 0px; 
 }
 
+.news {
+    padding: 15px; 
+}
+
+
 
 /* FOOTER */
 
 .footer {
+
     padding-top: 30px;
     padding-bottom: 30px;
-    width: 100%;
+
+
+}
+
+.footer-col {
+    padding-left: 15px; 
+    padding-right: 15px; 
+    
 }
 
 .footer h4 {
-    font-size: 15px; 
+    font-size: 20px; 
     font-weight: 300; 
 }
 
 .footer ul {
     list-style-type: none; 
     padding: 0px; 
+}
+
+.footer img {
+    padding-top: 10px; 
+    
 }
