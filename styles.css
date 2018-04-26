@@ -39,6 +39,7 @@ p {
 
 a {
   color: #56CCF2;
+  font-weight: 500;
 }
 
 a:hover, a:active {
@@ -164,6 +165,7 @@ table {
   background-color: #363434;
   opacity: 0;
   overflow: scroll;
+  overflow-x: hidden;
   transition: .5s ease;
   margin: 20px 0;
   width: 252px;
@@ -232,9 +234,10 @@ table {
 
 .news-title {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     margin: 0px;
-    padding-bottom: 5px;
+    padding-bottom: 12px;
+    line-height: 1.3em;
 }
 
 .news-date {
@@ -242,6 +245,7 @@ table {
     font-size: 15px;
     color: #56CCF2;
     margin: 0px;
+    padding-bottom: 12px;
 }
 
 .news {
@@ -268,7 +272,7 @@ table {
 
 .footer h4 {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 600;
 
 }
 
