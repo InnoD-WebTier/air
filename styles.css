@@ -80,8 +80,8 @@ a:hover, a:active {
 }
 
 .clearfix {
-    margin-left: -15px; 
-    padding-bottom: 10px; 
+    margin-left: -15px;
+    padding-bottom: 10px;
 }
 
 .youtube {
@@ -308,8 +308,8 @@ table {
 .footer .fab {
     font-size: 25px;
 <<<<<<< HEAD
-    padding-right: 10px; 
-    color: white; 
+    padding-right: 10px;
+    color: white;
 =======
     padding-right: 10px;
 >>>>>>> mobile nav
@@ -355,7 +355,6 @@ tbody {
 
 }
 
-<<<<<<< HEAD
 @media only screen and (max-width: 768px) {
   #header {
     height: 60vh;
@@ -384,7 +383,8 @@ tbody {
     margin-left: 10px;
     margin-right: 10px;
   }
-=======
+}
+
 /* MENU */
 .overlay-menu-icon {
   font-size: 2em;
@@ -406,5 +406,4 @@ tbody {
 
 .overlay-menu-visible {
   display: block;
->>>>>>> mobile nav
 }
