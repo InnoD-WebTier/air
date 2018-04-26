@@ -299,6 +299,7 @@ a:hover, a:active {
   margin: auto;
   width: 600px;
   height: 600px;
+  overflow-x: auto;
 
 }
 
